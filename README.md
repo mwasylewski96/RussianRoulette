@@ -1,1 +1,2 @@
 # RussianRoulette
+Prosta rosyjska ruletka ;)
