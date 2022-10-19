@@ -1,8 +1,8 @@
 """Russian Roulette"""
 import random
 import time
-#from playsound import playsound
-#playsound("C:\\Users\\mwasy\\OneDrive\\Pulpit\\Rewolwerglos.mp3")
+from playsound import playsound
+
 
 #naboje pełne - full są 3
 #naboje puste - empty jest 6
@@ -28,8 +28,10 @@ def strzelanie(rewolwer):
         a = input()
         time.sleep(1)
         if i == "full":
+            playsound("Gun.mp3")                 # Zakomentuj tą linijke jesli Tobie nie zadziała z dźwiękiem
             print("Oooopsss..........killed!")
         else:
+            playsound("Emptygun.mp3")            # Zakomentuj tą linijke jesli Tobie nie zadziała z dźwiękiem
             print("Uffff! Masz szczescie")
 def ponowna_gra(turn_on):
     print("Grasz dalej? Wybierz y na tak lub cokolwiek innego na nie")
