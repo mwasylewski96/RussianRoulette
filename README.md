@@ -1,2 +1,0 @@
-# RussianRoulette
-Prosta rosyjska ruletka ;)
