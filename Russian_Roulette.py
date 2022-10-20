@@ -7,7 +7,7 @@ from playsound import playsound
 #naboje pełne - full są 3
 #naboje puste - empty jest 6
 #Program losuje kolejnosc liczb od 0 do 8 w liscie rewolwer i strzela pokolei
-def napełnianie_rewolweru_nabojami(rewolwer):
+def napelnianie_rewolweru_nabojami(rewolwer):
     choicelist = ["full", "empty"]
     fullcounter = 0
     emptycounter = 0
@@ -45,7 +45,7 @@ choice = "Y"
 turn_on = True
 while turn_on == True:
     rewolwer = [] #pusty rewolwer
-    napełnianie_rewolweru_nabojami(rewolwer)
+    napelnianie_rewolweru_nabojami(rewolwer)
     strzelanie(rewolwer)
     if ponowna_gra(turn_on) == False:
         break
